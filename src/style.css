@@ -48,7 +48,7 @@ img {
   margin: auto;
 }
 
-.navbar__section {
+.navbar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 4rem;
@@ -56,7 +56,7 @@ img {
   padding-top: 1rem;
 }
 
-.navbar__section h1 {
+.navbar__logo {
   font-weight: 400;
   font-size: 3rem;
 }
@@ -73,13 +73,13 @@ img {
   padding-right: 10px;
 }
 
-.navbar__section a {
+.navbar a {
   font-size: 1rem;
   font-weight: 400;
   transition: 0.4s ease-in-out;
 }
 
-.navbar__section a:hover {
+.navbar a:hover {
   border-bottom: 2px solid;
   color: #f3b628;
 }
@@ -104,12 +104,12 @@ img {
   width: 100%;
 }
 .hero__banner p {
-  width: 650px;
+  width: 500px;
 }
 
 .hero__banner h1 {
   color: #fff;
-  font-size: 5em;
+  font-size: 4em;
   text-transform: uppercase;
 }
 .hero__banner button {
@@ -200,18 +200,49 @@ img {
 }
 
 .about__text h2 {
+  overflow: hidden;
+  display: inline-block;
+  border-right: 2px solid #091c28;
+  white-space: nowrap;
+  margin: 0;
+  width: 300px;
   font-size: 3rem;
+  animation: animationCycle 10s infinite;
 }
+
+@keyframes animationCycle {
+  0%, 100% {
+    width: 0;
+    border-color: transparent;
+  }
+  10% {
+    width: 100%;
+    border-color: transparent;
+  }
+  80% {
+    width: 100%; /* Adjust the duration of typing effect */
+    border-color: transparent;
+  }
+  90%, 100% {
+    width: 0;
+    border-color: #091720;
+  }
+}
+
+.about__text h2:hover {
+  animation: none;
+}
+
 
 .about__container hr {
   width: 40px;
 }
 
-.newletter_container {
+.newletter {
   padding-top: 4rem;
 }
 
-.newletter_content {
+.newletter__content {
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -222,29 +253,34 @@ img {
   width: 100vw;
 }
 
-.newletter_content h3 {
+.newletter__content h3 {
   font-size: 30px;
 }
 
-.newletter_content hr {
+.newletter__content hr {
   width: 40px;
 }
 
-.newletter_container input {
+.newletter input {
   width: 400px;
   height: 50px;
   padding: 20px;
 }
 
-.newletter_content button {
+.newletter__content button {
   background-color: #2b2b2b;
   color: #ffffff;
   padding: 10px 30px;
   width: auto;
   border-radius: 0px;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-.footer__section {
+.newletter__content button:hover {
+  background-color: #dcdcdc;
+  color: #2b2b2b;
+}
+.footer {
   padding-top: 4rem;
 }
 
@@ -267,13 +303,20 @@ img {
   display: flex;
   gap: 3rem;
 }
-.footer__social__icon a {
-  cursor: pointer;
+.footer__social__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust the width as needed */
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f3b628;
+  border: 2px solid white;
 }
 
 .footer__social__icon .fa {
-  font-size: 30px;
-  color: #f3b628;
+  font-size: 20px;
+  color: white;
 }
 
 .contact__info {
