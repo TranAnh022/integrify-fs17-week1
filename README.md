@@ -17,4 +17,3 @@ View on Phone :
 ![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/505c81b6-5224-4081-9a29-f7041381ae01)
 
 ![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/c3feb211-2751-4f93-ab3c-4af8dccfe605)
-
