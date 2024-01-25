@@ -1,33 +1,20 @@
-# Week 1 Assignment
+# Introduction
+This a mini project about the e-commerce website using HTML5, SASS
 
-This assignment aims to practice HTML, CSS and SASS
+## Deploy Site
+Click on this [Link](https://e-commerce-furnit.netlify.app/)
 
-## Requirement
+## Project
+View on Laptop:
+![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/1cd2d222-a7e6-4e76-8b23-d47096383a13)
+![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/ad8dca1e-92f3-4ddb-b36c-aee6934f0467)
 
-Create an e-commerce website
 
-1. Git/GitHub
+View on Phone :
 
-- create a simple `README` file to introduce yourself
-- submit the assignment by open a pull request (PR)
-- make the repository public
-- add label to your PR
+![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/71ff750b-9bfa-476c-9878-293be8e031dc)
 
-2. HTML and Accessibility
+![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/505c81b6-5224-4081-9a29-f7041381ae01)
 
-- Make use of different tags: headings, paragraphs, link, italic, ordered list, unordered list,table, form
-- Check out more tags that might be helpful: address, section, article, audio
+![image](https://github.com/TranAnh022/integrify-fs17-week1/assets/63698770/c3feb211-2751-4f93-ab3c-4af8dccfe605)
 
-3. CSS
-
-- add styling to the HTML file using Flexbox and Grid
-- add basic animation (hover effect, active link styles, typing effect)
-- the web page does not need to be fully responsive, but at least you should have responsive scaling for Flexbox and Grid system.
-
-4. SASS
-
-- apply SAAS to current project. Make sure to at least use variables and mixins
-
-5. Other
-   - Deploy the project
-   - Write a readme file to describe your project with few more details
