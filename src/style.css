@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +14,7 @@ body {
   font-size: 16px;
   font-weight: 200;
   color: var(--black-color);
-  background-color: var(--white-color);
+  background-color:  #fff;
 }
 
 h1,

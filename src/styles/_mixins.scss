@@ -1,0 +1,16 @@
+@mixin transition($properties, $duration: 0.4s, $timing-function: ease-in-out) {
+  transition: $properties $duration $timing-function;
+}
+
+@mixin responsive($device-size) {
+  @media screen and (max-width: $device-size) {
+    @content;
+  }
+}
+
+@mixin display($content) {
+  display: flex;
+  justify-content: $content;
+}
+
+
